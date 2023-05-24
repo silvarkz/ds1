@@ -1,0 +1,9 @@
+object kal{
+def main(args: Array[String]) = {
+	println("Hello World !")
+}
+}
+
+#
+scalac kal.scala
+scala kal
