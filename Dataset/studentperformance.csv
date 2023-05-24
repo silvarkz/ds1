@@ -1,0 +1,31 @@
+Gender,Math_Score,Reading_Score,Writing_Score,Placement_Score,Club_Join_Date,Placement_Offer_Count,Region
+male,70,94,77,95,2019,3,Pune
+female,60,93,65,94,2020,3,Nashik
+female ,62,79,69,81,2018,2,Mumbai
+male,67,85,60,76,2018,2,NA
+male,78,77,71,85,2021,3,Pune
+male,71,78,73,93,2020,3,Nashik
+female,60,89,71,82,2019,2,Mumbai
+female ,70,NaN,73,96,2020,3,NA
+male,78,89,63,84,2020,2,Pune
+male,95,96,84,66,2022,4,Nashik
+male,71,94,NaN,88,2021,3,Mumbai
+female,63,91,80,88,2019,3,NA
+female ,73,92,70,86,2021,3,Pune
+male,65,83,79,100,2021,3,Nashik
+male,NaN,77,65,79,2018,2,Mumbai
+male,76,84,66,NaN,2019,2,NA
+female,71,93,74,87,2021,3,Pune
+female ,68,86,64,75,2018,2,Nashik
+male,63,81,77,79,2019,2,Mumbai
+male,79,75,82,80,2020,2,NA
+male,79,91,75,79,2020,2,Pune
+female,79,97,60,87,2018,3,Nashik
+female ,76,85,75,82,2018,2,Mumbai
+male,75,85,64,98,2019,3,NA
+male,81,84,68,83,2018,2,Pune
+male,75,84,60,95,2019,3,Nashik
+female,79,95,73,96,2008,3,Mumbai
+female ,78,81,63,100,2021,3,NA
+male,65,79,79,72,2020,1,Pune
+male,67,76,67,96,2019,3,Nashik
