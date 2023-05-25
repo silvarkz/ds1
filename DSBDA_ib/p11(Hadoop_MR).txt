@@ -1,0 +1,47 @@
+1) hadoop verion
+
+2) cd hadoop-2.7.3
+
+3) bin/hadoop namenode -format
+
+4) cd sbin/
+
+5) ./hadoop-daemon.sh start namenode
+
+6) ./hadoop-daemon.sh start datanode
+
+7) ./yarn-daemon.sh start resourcemanager
+
+8) ./yarn-daemon.sh start nodemanager
+
+9) ./mr-jobhistory-daemon.sh start historyserver
+
+10) jps
+
+11) cd .. (2 times)
+
+12) mkdir words
+
+13) cd words
+
+14) paste the hadoop-core-1.2.1 jar file in words folder
+
+15) paste java WordCount program in words folder
+
+16) create input.txt file in words folder & give random text in it
+
+17) javac -classpath /home/student/Desktop/words/hadoop-core-1.2.1.jar /home/student/Desktop/words/WordCount.java
+
+18) jar -cvf words.jar -c words/.
+
+19) hadoop fs -mkdir /input
+
+20) hadoop fs -put input.txt /input
+
+21) hadoop fs -ls /input
+
+22) hadoop jar /home/student/Desktop/words.jar WordCount /input/input.txt /out321
+
+23) hadoop fs -ls /out321
+
+24) hadoop fs -cat /out321/part-r-00000
